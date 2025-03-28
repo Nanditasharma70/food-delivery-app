@@ -6,6 +6,7 @@ import AboutSection from "./components/AboutSection";
 import MenuSection from "./components/MenuSection";
 import FAQSection from "./components/FAQSection";
 import { ClerkProvider } from "@clerk/nextjs";
+import SuccessStory from "./components/SuccessStory";
 
 export default function Home() {
   const [locations, setLocations] = useState([]);
@@ -130,6 +131,7 @@ export default function Home() {
       <MenuSection/>
       <AboutSection/>
       <FAQSection/>
+      <SuccessStory/>
       <ContactSection/>
     </main>
   
